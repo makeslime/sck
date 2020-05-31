@@ -1,0 +1,7 @@
+while n<9:
+    i=0
+    while i<n+1:
+        print(f"{i+1}*{n+1}={(i+1)*(n+1)}",end='\t')
+        i+=1
+    print()
+    n+=1
